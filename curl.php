@@ -6,7 +6,7 @@ class curl {
 		curl_setopt ($this->ch, CURLOPT_USERAGENT, $this->agent);
 		curl_setopt ($this->ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt ($this->ch, CURLOPT_SSL_VERIFYPEER, 0);
-//	curl_setopt ($this->ch, CURLOPT_SSL_VERIFYHOST, 1);
+	curl_setopt ($this->ch, CURLOPT_SSL_VERIFYHOST, 1);
 		curl_setopt ($this->ch, CURLOPT_FOLLOWLOCATION,true);
 		curl_setopt ($this->ch, CURLOPT_TIMEOUT, 60);
 		curl_setopt ($this->ch, CURLOPT_CONNECTTIMEOUT,60);
