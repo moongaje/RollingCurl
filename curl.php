@@ -449,7 +449,7 @@ class curl {
 			case 366:	$agent= "Mozilla/5.0 (Android; Tablet; rv:34.0) Gecko/34.0 Firefox/34.0";	break;
 			case 367:	$agent= "Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-T330NU Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/38.0.2125.102 Safari/537.36";	break;
 			case 368:	$agent= "Mozilla/5.0 (Linux; Android 4.4; Nexus 7 Build/KRT16M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.92 Safari/537.36";	break;
-			case 369:	$Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1";	break;
+			case 369:	$agent=	"Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1";	break;
 			case 370:	$agent= "Mozilla/5.0 (Linux; U; Android 3.1; en-us; Xoom Build/HMJ25) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13";	break;
 			case 371:	$agent= "Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; GT-P7510 Build/JDQ39; CyanogenMod-10.1) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30";	break;
 			case 372:	$agent= "Mozilla/5.0 (Linux; Android 5.1.1; LG-H631 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.2125.102 Mobile Safari/537.36";	break;
