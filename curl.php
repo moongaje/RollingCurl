@@ -8,8 +8,8 @@ class curl {
 		curl_setopt ($this->ch, CURLOPT_SSL_VERIFYPEER, 0);
 //	curl_setopt ($this->ch, CURLOPT_SSL_VERIFYHOST, 1);
 		curl_setopt ($this->ch, CURLOPT_FOLLOWLOCATION,true);
-		curl_setopt ($this->ch, CURLOPT_TIMEOUT, 20);
-		curl_setopt ($this->ch, CURLOPT_CONNECTTIMEOUT,20);
+		curl_setopt ($this->ch, CURLOPT_TIMEOUT, 60);
+		curl_setopt ($this->ch, CURLOPT_CONNECTTIMEOUT,60);
 		}
 	function http_code() {
     	return curl_getinfo($this->ch, CURLINFO_HTTP_CODE);
